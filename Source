@@ -180,6 +180,6 @@ game:GetService("ReplicatedStorage").RSPackage.Events.StatFunction:InvokeServer(
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1520.80383, 91.8883972, 1797.34485, 0.999621511, 2.30433828e-09, -0.0275115967, -2.88431301e-09, 1, -2.10414139e-08, 0.0275115967, 2.11128004e-08, 0.999621511)        
     end)
 
-    local Credits = Window:NewTab("OverK2ll#3442")
-    CreditsSection:NewLabel("OverK2ll#3442")
-end 
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("OverK2ll#3442")
+    end
