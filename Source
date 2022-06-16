@@ -24,7 +24,7 @@ game:GetService("ReplicatedStorage").RSPackage.Events.StatFunction:InvokeServer(
     MainSection:NewToggle("Auto Endurance", "Automatically Gets Endurance", function(v)
         getgenv().autoswing = v
         while true do
-            if not getgenv().autoswing then return end
+            if not getgenv().autoclick then return end
             wait(1.2)
 
 local args = {
@@ -40,7 +40,7 @@ game:GetService("ReplicatedStorage").RSPackage.Events.StatFunction:InvokeServer(
     MainSection:NewToggle("Auto Speed", "Automatically Gets Speed", function(v)
         getgenv().autoswing = v
         while true do
-            if not getgenv().autoswing then return end
+            if not getgenv().autotap then return end
             wait(1.2)
 
 local args = {
@@ -56,7 +56,7 @@ game:GetService("ReplicatedStorage").RSPackage.Events.StatFunction:InvokeServer(
     MainSection:NewToggle("Auto Sword", "Automatically Swings Sword", function(v)
         getgenv().autoswing = v
         while true do
-            if not getgenv().autoswing then return end
+            if not getgenv().autohit then return end
             wait(1.2)
 
 local args = {
